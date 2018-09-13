@@ -24,5 +24,12 @@ namespace GitHerhaling
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LBBericht.Items.Clear();
+            LBBericht.Items.Add("Welkom!");
+            LBBericht.Items.Add("Welcome!");
+        }
     }
 }
